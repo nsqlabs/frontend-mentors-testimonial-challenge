@@ -1,0 +1,52 @@
+:root {
+  --moderate-violet: #7541c8;
+  --grayish-blue: #48556a;
+  --dark-blackish-blue: #19212e;
+  --white: #ffffff;
+  --light-gray: #cfcfcf;
+  --light-grayish-blue: #ecf2f8;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--light-grayish-blue);
+}
+
+.testimonial-grid-container {
+  padding: 5% 3%;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#testimonial1 {
+  background-color: var(--moderate-violet);
+  color: var(--white);
+}
+
+#testimonial2 {
+  background-color: var(--grayish-blue);
+}
+
+#testimonial3 {
+  color: var(--white);
+  background-color: var(--white);
+}
+
+#testimonial4 {
+  background-color: var(--dark-blackish-blue);
+  color: var(--white);
+}
+
+#testimonial5 {
+  background-color: var(--light-gray);
+}
+
+@media  (min-width: 576px) {
+}
